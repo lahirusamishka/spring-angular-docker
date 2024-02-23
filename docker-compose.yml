@@ -1,10 +1,10 @@
 version: "3.9"
 services:
     spring-boot-api:
-        image: demo
-        container_name: demo
+        image: spring-boot-api
+        container_name: spring-boot-api
         build:
-            context: ./demo
+            context: ./spring-boot
         ports:
             - "9000:80"
     angular-web-app:
